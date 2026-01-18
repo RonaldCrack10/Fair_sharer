@@ -3,8 +3,9 @@ target-version = "py39"
 
 [tool.ruff.lint]
 select = ["E", "F"]
+line-length = 88
 
-
+[tool.pytest.ini_options]
 testpath = [
     "test"
 ]
