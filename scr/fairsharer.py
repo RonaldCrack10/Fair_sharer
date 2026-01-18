@@ -1,6 +1,6 @@
 
 
-def fair_sharer(values: list, num_iterations: int, share: float) -> list:
+def fair_sharer(values: list, num_iterations: int, share: float = 0.1) -> list:
 
     highest_value = max(values)
     values_new = []
