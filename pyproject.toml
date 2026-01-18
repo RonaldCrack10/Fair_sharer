@@ -1,0 +1,12 @@
+[tool.ruff]
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F"]
+
+
+testpath = [
+    "test"
+]
+
+python_files = ["test_*.py"]
