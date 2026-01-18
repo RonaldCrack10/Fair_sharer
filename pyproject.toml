@@ -6,9 +6,5 @@ select = ["E", "F"]
 line-length = 88
 
 [tool.pytest.ini_options]
-testpath = [
-    "test"
-]
-
-[tool.pytest.ini_options]
+testpaths = ["test"]
 python_files = ["test_*.py"]
