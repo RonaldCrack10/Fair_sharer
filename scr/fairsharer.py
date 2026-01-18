@@ -3,7 +3,7 @@
 def fair_sharer(values: list, num_iterations: int, share: float = 0.1) -> list:
 
     highest_value = max(values)
-    values_new = []
+    
 
     for index, value in enumerate(values):
         if values[index] == highest_value:
