@@ -13,6 +13,12 @@ jobs:
   my-first-ci:
 
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python-version: ["3.12", "3.13"]
+    
 
     steps:
     - name: checkout repository
